@@ -1,0 +1,19 @@
+{
+    "name": "breakout-multiplayer",
+    "version": "1.0.0",
+    "description": "Multiplayer breakout game",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server"
+    },
+    "author": "Lokesh Bisht",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
